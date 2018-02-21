@@ -1,81 +1,81 @@
 {
   "semantics":[
     {
-      "label":"Image"
+      "label":"Εικόνα"
     },
     {
-      "label":"Alternative text",
-      "description":"Required. If the browser can't load the image this text will be displayed instead. Also used by readspeakers."
+      "label":"Εναλλακτικό κείμενο",
+      "description":"Αυτό το κείμενο εμφανίζεται σε περίπτωση που ο φυλλομετρητής αδυνατεί να φορτώσει την εικόνα. Χρησιμοποιείται επίσης και κατά την ακουστική υποβοήθηση. (απαιτείται)"
     },
     {
-      "label":"Hover text",
-      "description":"Optional. This text is displayed when the user hovers his pointing device over the image."
+      "label":"Επεξηγηματικό κείμενο",
+      "description":"Αυτό το κείμενο εμφανίζεται όταν ο χρήστης περνά τον κέρσορα πάνω από την εικόνα. (προαιρετικά)"
     },
     {
-      "label":"Copyright information",
+      "label":"Πληροφορίες σχετικές με τα δικαιώματα πνευματικής ιδιοκτησίας",
       "fields":[
         {
-          "label":"Title",
+          "label":"Τίτλος",
           "placeholder":"La Gioconda"
         },
         {
-          "label":"Author",
+          "label":"Δημιουργός",
           "placeholder":"Leonardo da Vinci"
         },
         {
-          "label":"Source",
+          "label":"Πηγή",
           "placeholder":"http://en.wikipedia.org/wiki/Mona_Lisa",
           "regexp":{
             
           }
         },
         {
-          "label":"License",
+          "label":"Άδεια",
           "default":"U",
           "options":[
             {
-              "label":"Undisclosed"
+              "label":"Άγνωστη - απροσδιόριστη"
             },
             {
-              "label":"Attribution"
+              "label":"Αναφορά Δημιουργού"
             },
             {
-              "label":"Attribution-ShareAlike"
+              "label":"Αναφορά Δημιουργού - Παρόμοια Διανομή"
             },
             {
-              "label":"Attribution-NoDerivs"
+              "label":"Αναφορά Δημιουργού - Όχι Παράγωγα Έργα"
             },
             {
-              "label":"Attribution-NonCommercial"
+              "label":"Αναφορά Δημιουργού - Μη Εμπορική Χρήση"
             },
             {
-              "label":"Attribution-NonCommercial-ShareAlike"
+              "label":"Αναφορά Δημιουργού - Μη Εμπορική Χρήση - Παρόμοια Διανομή"
             },
             {
-              "label":"Attribution-NonCommercial-NoDerivs"
+              "label":"Αναφορά Δημιουργού - Μη Εμπορική Χρήση - Όχι Παράγωγα Έργα"
             },
             {
-              "label":"General Public License"
+              "label":"Γενική Άδεια Δημόσιας Χρήσης "
             },
             {
-              "label":"Public Domain"
+              "label":"Κοινό Κτήμα"
             },
             {
-              "label":"Public Domain Dedication and Licence"
+              "label":"Άδεια Δημόσιου Τομέα"
             },
             {
-              "label":"Public Domain Mark"
+              "label":"Σήμα Δημόσιου Τομέα"
             },
             {
-              "label":"Copyright"
+              "label":"Δικαιώματα Πνευματικής Ιδιοκτησίας"
             }
           ]
         }
       ]
     },
     {
-      "label":"Image content name",
-      "default":"Image"
+      "label":"Όνομα περιεχομένου εικόνας",
+      "default":"Εικόνα"
     }
   ]
 }
